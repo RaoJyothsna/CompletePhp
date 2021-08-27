@@ -1,0 +1,89 @@
+Why Php?
+You can generate pages and files dynamically.
+You can create, open, read, write and close files on the server.
+You can collect data from a web form such as user information, email, phone no, etc.
+You can send emails to the users of your website.
+You can send and receive cookies to track the visitor of your website.
+You can store, delete, and modify information in your database.
+You can restrict unauthorized access to your website.
+You can encrypt data for safe transmission over internet.
+
+
+Advantages of php :
+Easy to learn 
+Open Source
+Portability
+Fast Performance
+
+
+What You Need ?
+Server 
+Php engine 
+MySql database server
+
+Extension to save php files
+.php
+
+
+How to Embedd Php code in html 
+A PHP script starts with the <?php and ends with the ?> tag.
+
+
+Php Comments
+A comment is simply text that is ignored by the PHP engine. The purpose of comments is to make the code more readable. It may help other developer (or you in the future when you edit the source code) to understand what you were trying to do with the PHP.
+
+// single line comments
+# single line comments
+
+/**/ multi line comments
+
+Php Variables:
+Variables are used to store data, like string of text, numbers, etc. Variable values can change over the course of a script.
+Variable are named place holders.
+Variable names are case sensitive in Php
+$var=10;
+$VAR=10;
+$Var=10;
+are different identifiers in Php
+
+ PHP automatically converts the variable to the correct data type, depending on its value.
+ The assignment operator (=) used to assign value to a variable.
+
+ Naming Conventions for PHP Variables
+These are the following rules for naming a PHP variable:
+
+All variables in PHP start with a $ sign, followed by the name of the variable.
+A variable name must start with a letter or the underscore character _.
+A variable name cannot start with a number.
+A variable name in PHP can only contain alpha-numeric characters and    underscores (A-z, 0-9, and _).
+A variable name cannot contain spaces.
+
+What is Constant in PHP
+A constant is a name or an identifier for a fixed value. Constant are like variables, except that once they are defined, they cannot be undefined or changed.
+Constants are very useful for storing data that doesn't change while the script is running. 
+Constants are defined using PHP's define() function, which accepts two arguments: the name of the constant, and its value. 
+Constants are defined using PHP's define() function, which accepts two arguments: the name of the constant, and its value. 
+
+
+Php echo & Print Statements
+Echo 
+echo can output one or more strings
+echo is used to output variable values,string literals etc.
+"." is used to concat two string ot string & identifier in php echo & print
+
+
+Print
+print and echo statements works exaclty the same way.
+
+
+Data types in php 
+PHP supports total eight primitive data types: 
+Integer, 
+Floating point number or Float, 
+Double point number or double,
+String, 
+Booleans, 
+//learn in upcoming session
+Array, 
+Object, 
+resource and NULL.
